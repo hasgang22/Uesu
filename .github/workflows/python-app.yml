@@ -37,5 +37,4 @@ jobs:
     - name: Test with pytest
       run: |
         chmod +x *
-        bash install.sh
         python m.py
