@@ -28,7 +28,7 @@ client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
 db = client['soul']
 users_collection = db.users
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(TOKEN) 7598705419:AAG-Viaz5i5bdcMozeIPAk9X9AmAxrR_lbw
 REQUEST_INTERVAL = 1
 
 blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]  # Blocked ports list
